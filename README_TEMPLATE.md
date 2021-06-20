@@ -1,13 +1,19 @@
+🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
+
+**UNDER DEVELOPMENT**
+
+🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
+
 <p align="center">
   <br>
-   <img src="https://media.giphy.com/media/JstFYY8FwlBm48n7De/giphy.gif" alt="Jim (from The Office) napping" title="Execution Mode header's GIF" />
+   <img src="https://media.giphy.com/media/3og0ILgFOEXIL8Bsn6/source.gif" alt="A gif of a farmer plotting his farm" title="Seeder's header gif" />
   <br>
 </p>
 <p align="center">
-An one-liner explanation of this repository
+An easy, blazingly fast, and reliable Chia plot manager for your farm
 </p>
 
-# Template Base
+# Chia Seeder
 
 * [Why](#why)
 * [Quickstart](#quickstart)
@@ -17,27 +23,36 @@ An one-liner explanation of this repository
 
 ## Why
 
-One paragraph explaining a high-level overview of what this repository is about.
+Any farmer managing multiple HDDs knows how hard it is to manage all its plotting processes. This job can be even more difficult if you're managing more than one rig. This tool aims to make it easier for farmers to manage their plot processes by:
+
+* Having a single, centralized configuration
+* Enabling staggering start of plot process based on a manually provided number of minutes
+* Allowing plot processes to be bootstrapped as soon as the previous plot reaches a given phase (hooks)
+* Hooking external processes as soon as your plot process enters a given phase
+* Early start new plot processes when the previous process enters the last phase
+* `UNDER DEVELOPMENT` Plotting from your seeder rig directly into your farm over your private network
+* `UNDER DEVELOPMENT` Automatically optimizing your configuration to achieve maximum efficiency given your rig's hardware
+* `UNDER DEVELOPMENT` Distribute plot process from a centralized server across multiple clients (a single server node can manage multiple seeder rigs)
 
 ## Quickstart
 
-In this section, you need to explain how to install and setup your application for usage properly.
+🚧
 
-### Install <!-- omit in toc -->
+### Install
 
-In this paragraph, you should explain how to install it. Show some snippets of code.
+🚧
 
-### Setup <!-- omit in toc -->
+### Setup
 
-Here, show how to configure your application for proper usage.
+🚧
 
 ## Usage
 
-Here you can give more details regarding the usage of this repository. You can explain some usage scenarios and provide a more detailed overview regarding them.
+🚧
 
 ## Contributing
 
-Contributions are what make our company such a fantastic place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. You can learn how to contribute to this project on the [`CONTRIBUTING`][contributing] file.
+Contributions are what make the open-source community such a fantastic place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. You can learn how to contribute to this project on the [`CONTRIBUTING`][contributing] file.
 
 ## License
 
