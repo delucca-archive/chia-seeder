@@ -1,0 +1,92 @@
+#!/usr/bin/env bash
+
+# REQUIRED DEPENDENCIES
+# -------------------------------------------------------------------------------------------------
+#
+# To run this script, you must have the following tools installed:
+# - bash 4
+
+# Entrypoint
+# -------------------------------------------------------------------------------------------------
+
+function main {
+  validate_requirements
+  customize
+  selfdestruct
+}
+
+# Validate
+# -------------------------------------------------------------------------------------------------
+
+function validate_requirements {
+  validate_dependencies
+}
+
+function validate_dependencies {
+  validate_bash_dependency
+}
+
+function validate_bash_dependency {
+  major_version="$(bash --version | head -1 | cut -d ' ' -f 4 | cut -d '.' -f 1)"
+  min_major_version="4"
+
+  if [ "${major_version}" -lt "${min_major_version}" ]; then
+    throw_error "Your bash major version must be ${min_major_version} or greater"
+  fi
+}
+
+# Customize
+# -------------------------------------------------------------------------------------------------
+
+function customize {
+
+}
+
+# Selfdestruct
+# -------------------------------------------------------------------------------------------------
+
+function selfdestruct {
+
+}
+
+# Helpers
+# -------------------------------------------------------------------------------------------------
+
+function log_title {
+  message=$1
+
+  bold=$(tput bold)
+  reset=$(tput sgr0)
+  magenta=$(tput setaf 5)
+  number_of_columns="$(($(tput cols)-27))"
+  separator_spaces=$(printf "%${number_of_columns}s")
+
+  echo
+  echo "${bold}${magenta}${message}${reset}"
+  echo ${separator_spaces// /-}
+}
+
+function log_error {
+  message=$1
+
+  bold=$(tput bold)
+  reset=$(tput sgr0)
+  red=$(tput setaf 1)
+
+  echo "${bold}${red}Error:${reset}"
+  echo "${red}  ${message}${reset}"
+}
+
+function start_spinner_in_category {
+  category=$1
+  message=$2
+
+  full_message="  \x1B[36m\r➤\e[1m ${category}:\x1B[0m ${message}"
+
+  start_spinner "${full_message}"
+}
+
+# Execute
+# -------------------------------------------------------------------------------------------------
+
+main $@
