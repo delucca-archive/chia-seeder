@@ -1,4 +1,4 @@
-# Building <repository-name>
+# Building Chia Seeder
 
 Before running any build scripts, there are some generic and OS-related dependencies. This document aims to guide you while configuring your local environment to develop and run our application.
 
@@ -6,4 +6,4 @@ Before running any build scripts, there are some generic and OS-related dependen
 
 ## Generic dependencies
 
-<application-generic-dependencies-installation>
+🚧

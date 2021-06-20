@@ -6,7 +6,7 @@
 
 ## [Code of Conduct][code-of-conduct-guide]
 
-The Phant project has a [Code of Conduct][code-of-conduct] to which all contributors must adhere. See [details on our policy on Code of Conduct][code-of-conduct-guide] to learn more about it.
+The Chia Seeder project has a [Code of Conduct][code-of-conduct] to which all contributors must adhere. See [details on our policy on Code of Conduct][code-of-conduct-guide] to learn more about it.
 
 ## [Issues][issues]
 

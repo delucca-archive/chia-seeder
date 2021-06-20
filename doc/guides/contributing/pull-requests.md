@@ -76,7 +76,7 @@ To make it easier while debugging, your commit messages should be standardized. 
 This project follows a strict lint pattern. We've decided to do so to keep a standard in our codebase. A standardized codebase is easier to explore and understand. After finishing your issue, you can run the following snippet to lint your code, fixing any warnings and errors afterward:
 
 ```shell
-<project-linting-snippet>
+🚧
 ```
 
 ### Step 7: Rebase
@@ -145,7 +145,7 @@ Also, don't forget to **always** follow our [Code of Conduct][code-of-conduct] w
 
 ### Step 10: Landing
 
-To land, a pull request must be reviewed and approved by one Phant collaborator. After that, as long as there are no objections from other contributors, the pull request can be merged.
+To land, a pull request must be reviewed and approved by one Chia Seeder collaborator. After that, as long as there are no objections from other contributors, the pull request can be merged.
 
 [building-guide]: ../building.md
 [repository-url]: <repository-url>

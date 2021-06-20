@@ -6,12 +6,12 @@
 
 ## Running acceptance tests
 
-<explain-for-your-application>
+🚧
 
 ## Running unit tests
 
-<explain-for-your-application>
+🚧
 
 ## Running mutation tests
 
-<explain-for-your-application>
+🚧
