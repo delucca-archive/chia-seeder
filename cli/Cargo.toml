@@ -1,12 +1,12 @@
 [package]
 name = "chia-seeder-cli"
+description = "🌱 Easy to use, blazing-fast, and reliable Chia plot manager for your farm"
 version = "0.1.0"
 authors = ["delucca <delucca@pm.me>"]
 edition = "2018"
 repository = "https://github.com/delucca/chia-seeder/"
 readme = "README.md"
 license = "Apache-2.0"
-
 
 [dependencies]
 structopt = "0.3"
