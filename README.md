@@ -10,7 +10,7 @@
   <br>
 </p>
 <p align="center">
-An easy, blazingly fast, and reliable Chia plot manager for your farm
+🌱 Easy to use, blazingly fast, and reliable Chia plot manager for your farm
 </p>
 
 # Chia Seeder
