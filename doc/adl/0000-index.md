@@ -7,7 +7,7 @@
 
 ## Accepted ADRs
 
-* [None](#)
+* [0001 - Rust](./0001-rust.md)
 
 ## Proposed ADRs
 
