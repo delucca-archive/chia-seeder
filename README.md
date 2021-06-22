@@ -26,13 +26,12 @@
 Any farmer managing multiple HDDs knows how hard it is to manage all its plotting processes. This job can be even more difficult if you're managing more than one rig. This tool aims to make it easier for farmers to manage their plot processes by:
 
 * Having a single, centralized configuration
+* Allowing a single server to control multiple client
 * Enabling staggering start of plot process based on a manually provided number of minutes
-* Allowing plot processes to be bootstrapped as soon as the previous plot reaches a given phase (hooks)
-* Hooking external processes as soon as your plot process enters a given phase
-* Early start new plot processes when the previous process enters the last phase
-* `UNDER DEVELOPMENT` Plotting from your seeder rig directly into your farm over your private network
-* `UNDER DEVELOPMENT` Automatically optimizing your configuration to achieve maximum efficiency given your rig's hardware
-* `UNDER DEVELOPMENT` Distribute plot process from a centralized server across multiple clients (a single server node can manage multiple seeder rigs)
+* Allowing plot processes to be launched based on phase hooks
+* Hooking external processes with phase transitions
+* Early starting new plot processes when the previous enters the last phase
+* Automatically detecting disk usage, preventing plots to be started if the target usage was already met
 
 ## Quickstart
 
