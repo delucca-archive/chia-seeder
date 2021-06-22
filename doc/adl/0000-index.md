@@ -8,6 +8,7 @@
 ## Accepted ADRs
 
 * [0001 - Rust](./0001-rust.md)
+* [0002 - Base Architecture Pattern](0002-base-architecture-pattern.md)
 
 ## Proposed ADRs
 
